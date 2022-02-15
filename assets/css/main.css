@@ -3329,6 +3329,9 @@ input, select, textarea {
 		}
 
 /* Publications list */
+ul.pubslist {
+	list-style-type: none;
+}
 .pubslist span {
 	display: block;
 }
