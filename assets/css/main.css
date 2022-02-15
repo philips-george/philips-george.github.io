@@ -3337,6 +3337,7 @@ ul.pubslist {
 
 ul.pubslist li {
 	padding-left: 0;
+	padding-bottom: 0.5em;
 }
 
 .pubslist span {
