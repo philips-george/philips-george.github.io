@@ -3327,3 +3327,16 @@ input, select, textarea {
 			}
 
 		}
+
+/* Publications list */
+.pubslist span {
+	display: block;
+}
+
+.pubslist span.title {
+	font-weight: 600;
+}
+
+.pubslist span.venue {
+	color: #666;
+}
