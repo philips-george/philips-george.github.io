@@ -3331,6 +3331,8 @@ input, select, textarea {
 /* Publications list */
 ul.pubslist {
 	list-style-type: none;
+	padding-left: 0;
+	-webkit-padding-start: 0;
 }
 .pubslist span {
 	display: block;
