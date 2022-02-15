@@ -3334,6 +3334,11 @@ ul.pubslist {
 	padding-left: 0;
 	-webkit-padding-start: 0;
 }
+
+ul.pubslist li {
+	padding-left: 0;
+}
+
 .pubslist span {
 	display: block;
 }
