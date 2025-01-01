@@ -3339,12 +3339,12 @@ ul.pubslist {
 	-webkit-padding-start: 0;
 }
 
-ul.pubslist li {
+ul.pubslist li.pub {
 	padding-left: 0;
 	padding-bottom: 0.5em;
 }
 
-.pubslist span {
+.pubslist .pub span {
 	display: block;
 }
 
