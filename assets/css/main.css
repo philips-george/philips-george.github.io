@@ -3351,3 +3351,10 @@ ul.pubslist li {
 .pubslist span.venue {
 	color: #666;
 }
+
+.pubslist .authors.alphabetical:before {
+    content: "\167";
+    color: #B73239;
+    margin-right: 6px;
+}
+
