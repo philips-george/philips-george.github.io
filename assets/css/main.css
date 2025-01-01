@@ -3328,6 +3328,10 @@ input, select, textarea {
 
 		}
 
+.parhead {
+	font-weight: bold;
+}
+
 /* Publications list */
 ul.pubslist {
 	list-style-type: none;
