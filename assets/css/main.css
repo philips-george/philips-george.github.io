@@ -3353,7 +3353,9 @@ ul.pubslist li {
 }
 
 .pubslist .authors.alphabetical:before {
-    content: "\167";
+    content: "αβ";
+    vertical-align: super;
+    font-size:0.8ex;
     color: #B73239;
     margin-right: 6px;
 }
