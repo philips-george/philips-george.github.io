@@ -3328,8 +3328,16 @@ input, select, textarea {
 
 		}
 
+.block {
+	display: block;
+}
+
 .parhead {
 	font-weight: bold;
+}
+
+.smaller {
+	font-size: 0.75em;
 }
 
 /* Publications list */
