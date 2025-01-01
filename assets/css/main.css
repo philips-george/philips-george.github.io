@@ -3348,15 +3348,15 @@ ul.pubslist li.pub {
 	display: block;
 }
 
-.pubslist span.title {
+.pubslist .pub span.title {
 	font-weight: 600;
 }
 
-.pubslist span.venue {
+.pubslist .pub span.venue {
 	color: #666;
 }
 
-.pubslist .authors.alphabetical:before {
+.pubslist .pub .authors.alphabetical:before {
     content: "αβ";
     vertical-align: super;
     font-size:1.5ex;
