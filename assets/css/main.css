@@ -3369,10 +3369,23 @@ ul.pubslist li.pub {
 	color: #666;
 }
 
+.pubslist .pub span.authors {
+	display: block;
+}
 .pubslist .pub .authors.alphabetical:before {
     content: "αβ";
     vertical-align: super;
     font-size:1.5ex;
     color: #B73239;
     margin-right: 0.5ex;
+}
+
+.pubslist .pub .authors.alphabetical ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.pubslist .pub .authors.alphabetical ul li {
+	display: inline-block;
 }
