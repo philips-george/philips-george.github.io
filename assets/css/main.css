@@ -3384,8 +3384,21 @@ ul.pubslist li.pub {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	display: inline-block;
 }
 
 .pubslist .pub .authors.alphabetical ul li {
 	display: inline-block;
+}
+
+.pubslist .pub .authors.alphabetical ul li:after {
+	content: ",";
+}
+
+.pubslist .pub .authors.alphabetical ul li:last-child:before {
+	content: "and";
+}
+
+.pubslist .pub .authors.alphabetical ul li:last-child:after {
+	content: ".";
 }
