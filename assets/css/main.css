@@ -3396,7 +3396,7 @@ ul.pubslist li.pub {
 }
 
 .pubslist .pub .authors.alphabetical ul li:last-child:before {
-	content: "and";
+	content: "and ";
 }
 
 .pubslist .pub .authors.alphabetical ul li:last-child:after {
