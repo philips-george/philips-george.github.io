@@ -3372,6 +3372,7 @@ ul.pubslist li.pub {
 .pubslist .pub span.authors {
 	display: block;
 }
+
 .pubslist .pub .authors.alphabetical:before {
     content: "αβ";
     vertical-align: super;
@@ -3380,25 +3381,29 @@ ul.pubslist li.pub {
     margin-right: 0.5ex;
 }
 
-.pubslist .pub .authors.alphabetical ul {
+.pubslist .pub .authors ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	display: inline-block;
 }
 
-.pubslist .pub .authors.alphabetical ul li {
+.pubslist .pub .authors ul li {
 	display: inline-block;
 }
 
-.pubslist .pub .authors.alphabetical ul li:after {
+.pubslist .pub .authors ul li:after {
 	content: ",";
 }
 
-.pubslist .pub .authors.alphabetical ul li:last-child:before {
+.pubslist .pub .authors ul li:last-child:before {
 	content: "and ";
 }
 
-.pubslist .pub .authors.alphabetical ul li:last-child:after {
+.pubslist .pub .authors.solo ul li:last-child:before {
+	content: "";
+}
+
+.pubslist .pub .authors ul li:last-child:after {
 	content: ".";
 }
