@@ -3390,10 +3390,15 @@ ul.pubslist li.pub {
 
 .pubslist .pub .authors ul li {
 	display: inline-block;
+	padding-left: 1em;
 }
 
 .pubslist .pub .authors ul li:after {
 	content: ",";
+}
+
+.pubslist .pub .authors ul li:first-child {
+	padding-left: 0;
 }
 
 .pubslist .pub .authors ul li:last-child:before {
