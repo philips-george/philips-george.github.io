@@ -3394,7 +3394,7 @@ ul.pubslist li.pub {
 }
 
 .pubslist .pub .authors ul li.self {
-	font-weight: bold;
+	color: #318CE7; // Blue de France
 }
 
 .pubslist .pub .authors ul li:after {
