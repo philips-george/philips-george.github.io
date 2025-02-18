@@ -3344,6 +3344,10 @@ input, select, textarea {
 	margin: 0;
 }
 
+.compactheader {
+	margin-bottom: 0.5em;
+}
+
 /* Publications list */
 ul.pubslist {
 	list-style-type: none;
