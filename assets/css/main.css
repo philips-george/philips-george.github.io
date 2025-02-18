@@ -3348,6 +3348,10 @@ input, select, textarea {
 	margin-bottom: 0.5em;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 /* Publications list */
 ul.pubslist {
 	list-style-type: none;
